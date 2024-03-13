@@ -16,7 +16,7 @@ class CreatNEWPass extends StatelessWidget {
                 height: MediaQuery
                     .of(context)
                     .size
-                    .height * 0.16,
+                    .height * 0.10,
               ),
               Center(
                 child: Text('Create New Password',
@@ -74,7 +74,7 @@ class CreatNEWPass extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 18),
+                padding: EdgeInsets.symmetric(horizontal: 18,vertical: 10),
                 child: TextFormField(
                   cursorColor: Color(0xffBE8C63),
                   onChanged: (value) => print(value),
@@ -105,7 +105,7 @@ class CreatNEWPass extends StatelessWidget {
                 height: MediaQuery
                     .of(context)
                     .size
-                    .height * 0.02,
+                    .height * 0.01,
               ),
 
               //Padding(padding: EdgeInsets.symmetric(vertical: 10)),

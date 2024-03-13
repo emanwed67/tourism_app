@@ -11,7 +11,7 @@ class Notifica extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(
               top: 50,
-              left: 20,
+              left: 12,
               bottom: 20,
             ),
             child: Container(
@@ -78,7 +78,7 @@ class Notifica extends StatelessWidget {
                   side: BorderSide(
                     width: 1,
                     strokeAlign: BorderSide.strokeAlignCenter,
-                    color: Color(0x336C3428),
+                    color: Color(0xffE4D1B9),
                   ),
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -129,7 +129,7 @@ class Notifica extends StatelessWidget {
                 side: BorderSide(
                   width: 1,
                   strokeAlign: BorderSide.strokeAlignCenter,
-                  color: Color(0x336C3428),
+                  color: Color(0xffE4D1B9),
                 ),
                 borderRadius: BorderRadius.circular(20),
               ),

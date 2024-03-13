@@ -47,7 +47,7 @@ class ScanResult extends StatelessWidget {
                                 children: [
                                   Padding(
                                     padding: EdgeInsets.symmetric(
-                                        horizontal: 16, vertical: 34),
+                                        horizontal: 16, vertical: 24),
                                     child: Text(
                                       'Name Of The Statue',
                                       style: TextStyle(
@@ -462,7 +462,7 @@ class ScanResult extends StatelessWidget {
                       children: [
                         Icon(
                           Icons.favorite,
-                          color: Color(0xffBE8C63),
+                          color: Color(0xffE4D1B9),
                         ),
                       ],
                     ),

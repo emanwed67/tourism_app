@@ -9,7 +9,7 @@ class Transprant extends StatelessWidget {
     return Scaffold(
         body: SafeArea(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,7 +53,7 @@ class Transprant extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 12.0),
                     child: Text(
-                      'ride_hailing services:',
+                      'Ride_Hailing Services:',
                       style: TextStyle(
                         color: Color(0xff6C3428),
                         fontSize: 24,
@@ -87,11 +87,11 @@ class Transprant extends StatelessWidget {
                     alignment: Alignment.bottomCenter,
                     children: [
                       Image.asset(
-                        'assets/image/uber.png',
+                        'assets/image/careem.png',
                         width: MediaQuery.of(context).size.height * 0.23,
                       ),
                       Image.asset(
-                        'assets/image/uberr.png',
+                        'assets/image/careemm.png',
                         width: MediaQuery.of(context).size.height * 0.23,
                       ),
                     ],
@@ -104,7 +104,7 @@ class Transprant extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12.0),
                 child: Text(
-                  'car_rental:',
+                  'Car_Rental:',
                   style: TextStyle(
                     color: Color(0xff6C3428),
                     fontSize: 24,
@@ -126,13 +126,13 @@ class Transprant extends StatelessWidget {
                       children: [
                         Stack(children: [
                           Image.asset(
-                            'assets/image/uber.png',
+                            'assets/image/car.png',
                             width: MediaQuery.of(context).size.height * 0.23,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 125),
                             child: Image.asset(
-                              'assets/image/uberr.png',
+                              'assets/image/carr.png',
                               width: MediaQuery.of(context).size.height * 0.23,
                             ),
                           ),
@@ -145,13 +145,13 @@ class Transprant extends StatelessWidget {
                       children: [
                         Stack(children: [
                           Image.asset(
-                            'assets/image/careem.png',
+                            'assets/image/hala.png',
                             width: MediaQuery.of(context).size.height * 0.23,
                           ),
                           Padding(
                             padding: EdgeInsets.only(top: 125),
                             child: Image.asset(
-                              'assets/image/careemm.png',
+                              'assets/image/halal.png',
                               width: MediaQuery.of(context).size.height * 0.23,
                             ),
                           )
@@ -163,13 +163,13 @@ class Transprant extends StatelessWidget {
                       child: Column(children: [
                     Stack(children: [
                       Image.asset(
-                        'assets/image/uber.png',
+                        'assets/image/car4u.png',
                         width: MediaQuery.of(context).size.height * 0.23,
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 125),
                         child: Image.asset(
-                          'assets/image/uberr.png',
+                          'assets/image/car2u.png',
                           width: MediaQuery.of(context).size.height * 0.23,
                         ),
                       ),
@@ -180,13 +180,13 @@ class Transprant extends StatelessWidget {
                       children: [
                         Stack(children: [
                           Image.asset(
-                            'assets/image/careem.png',
+                            'assets/image/phot.png',
                             width: MediaQuery.of(context).size.height * 0.23,
                           ),
                           Padding(
                             padding: EdgeInsets.only(top: 125),
                             child: Image.asset(
-                              'assets/image/careemm.png',
+                              'assets/image/phot2.png',
                               width: MediaQuery.of(context).size.height * 0.23,
                             ),
                           )

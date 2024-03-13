@@ -39,7 +39,7 @@ class _ScanDesignState extends State<ScanDesign> {
             height: MediaQuery.of(context).size.height * 0.04,
           ),
           const Text(
-            'set up QR code..',
+            'Set Up QR Code..',
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.w800,
@@ -50,7 +50,7 @@ class _ScanDesignState extends State<ScanDesign> {
             height: MediaQuery.of(context).size.height * 0.04,
           ),
           const Text(
-            'scan the QR code to get all information about Artifacts .',
+            'Scan The QR Code To Get All Information About Artifacts .',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 16,
@@ -78,7 +78,7 @@ class _ScanDesignState extends State<ScanDesign> {
                 borderRadius: BorderRadius.circular(20),
               ),
               child: const Text(
-                'scan',
+                'Scan',
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 16,

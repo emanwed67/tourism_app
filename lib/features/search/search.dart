@@ -19,40 +19,45 @@ class _SearchState extends State<Search> {
           SizedBox(
             height: MediaQuery.of(context).size.height * 0.07,
           ),
-          Material(
-            elevation: 2,
-            shadowColor: Color(0xffE4D1B9),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0),
-              child: TextFormField(
-                decoration: InputDecoration(
-                    filled: true,
-                    fillColor: Colors.white,
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: const BorderSide(
-                        color: Colors.white,
-                      ),
-                      borderRadius: BorderRadius.circular(
-                        12,
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: const BorderSide(
-                        color: Colors.white,
-                      ),
-                      borderRadius: BorderRadius.circular(
-                        12,
-                      ),
-                    ),
-                    hintText: 'Search',
-                    hintStyle: TextStyle(color: Color(0xffE4D1B9)),
-                    prefixIcon: Icon(Icons.search),
-                    prefixIconColor: Color(0xffE4D1B9)),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            child: Material(
+              shadowColor: Color(0xffE4D1B9),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Container(
+                  height: 55,
+                  child: TextFormField(
+                    decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Colors.white,
+                        enabledBorder: OutlineInputBorder(
+                          borderSide:  BorderSide(
+                            color:  Color(0xFFBE8C63),
+                          ),
+                          borderRadius: BorderRadius.circular(
+                            22,
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.white,
+                          ),
+                          borderRadius: BorderRadius.circular(
+                            16,
+                          ),
+                        ),
+                        hintText: 'Search',
+                        hintStyle: TextStyle(color: Color(0xffE4D1B9)),
+                        prefixIcon: Icon(Icons.search),
+                        prefixIconColor: Color(0xffE4D1B9)),
+                  ),
+                ),
               ),
             ),
           ),
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.05,
+            height: MediaQuery.of(context).size.height * 0.03,
           ),
           Row(
             children: [
@@ -158,7 +163,7 @@ class _SearchState extends State<Search> {
                       children: [
                         Icon(
                           Icons.favorite,
-                          color: Color(0xffBE8C63),
+                          color: Color(0xffE4D1B9),
                         ),
                       ],
                     ),
@@ -180,7 +185,7 @@ class _SearchState extends State<Search> {
                       children: [
                         Icon(
                           Icons.search,
-                          color: Color(0xffE4D1B9),
+                          color: Color(0xffBE8C63),
                         ),
                       ],
                     ),

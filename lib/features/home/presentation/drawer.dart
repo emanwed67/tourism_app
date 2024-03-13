@@ -34,7 +34,7 @@ class NavDrawer extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
-                          color: Colors.white),
+                          color: Color(0xffE4D1B9)),
                     ),
                     SizedBox(
                       height: 8,
@@ -44,7 +44,7 @@ class NavDrawer extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w500,
-                          color: Colors.white),
+                          color: Color(0xffE4D1B9)),
                     )
                   ],
                 )

@@ -30,7 +30,7 @@ class ScanAction extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.04,
           ),
           const Text(
-            'scan the QR code of the Artifact',
+            'Scan The QR Code Of The Artifact',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 32,
@@ -69,7 +69,7 @@ class ScanAction extends StatelessWidget {
             child: SizedBox(
               width: MediaQuery.of(context).size.width * 0.7,
               child: const Text(
-                'please wait few second while loading Data .',
+                'Please Wait Few Second While Loading Data .',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,

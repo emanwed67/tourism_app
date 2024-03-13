@@ -16,7 +16,7 @@ class ForgetPass extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.15,
+            height: MediaQuery.of(context).size.height * 0.10,
           ),
           Center(
             child: Text('Forget Password',

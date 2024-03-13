@@ -19,7 +19,8 @@ class _QuickPage1State extends State<QuickPage1> {
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(
-              horizontal: MediaQuery.of(context).size.width * 0.04),
+            vertical:MediaQuery.of(context).size.width * 0.04 ,
+              horizontal: MediaQuery.of(context).size.width * 0.04, ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
@@ -47,7 +48,7 @@ class _QuickPage1State extends State<QuickPage1> {
                 ],
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.1,
+                height: MediaQuery.of(context).size.height * 0.06,
               ),
               const Row(
                 children: [
@@ -90,7 +91,7 @@ class _QuickPage1State extends State<QuickPage1> {
                 ),
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.02,
+                height: MediaQuery.of(context).size.height * 0.05,
               ),
               Row(
                 children: [
@@ -131,7 +132,7 @@ class _QuickPage1State extends State<QuickPage1> {
                 ],
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.03,
+                height: MediaQuery.of(context).size.height * 0.02,
               ),
               Padding(
                 padding:
@@ -142,7 +143,7 @@ class _QuickPage1State extends State<QuickPage1> {
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
                       boxShadow: [
-                        BoxShadow(blurRadius: 2, color: Colors.black45)
+                        BoxShadow(blurRadius: 2, color: Color(0xffE4D1B9))
                       ],
                       borderRadius: BorderRadius.circular(16),
                       // color: Colors.cyan,

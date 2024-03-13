@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:tourism_app/features/home/presentation/favourite/favourite.dart';
@@ -21,7 +20,7 @@ class _Home_ScreenState extends State<Home_Screen> {
   int currentIndex = 0;
 
   List imgList = [
-   'assets/image/giza.png',
+    'assets/image/giza.png',
     'assets/image/luxor.jpg',
     'assets/image/aswan.png',
     'assets/image/hurghada.png',
@@ -45,24 +44,18 @@ class _Home_ScreenState extends State<Home_Screen> {
         child: CustomScrollView(
           slivers: [
             SliverAppBar(
-                backgroundColor: Colors.white,
-                title: Text(
+              backgroundColor: Colors.white,
+              title: Padding(
+                padding: const EdgeInsets.only(top: 12.0),
+                child: Text(
                   "KEMET",
                   style: TextStyle(
                       fontSize: 32,
                       color: mainColor,
                       fontWeight: FontWeight.w600),
                 ),
-                leading: GestureDetector(
-                  onTap: () {
-                    key.currentState!.openDrawer();
-                  },
-                  child: Icon(
-                    Icons.menu,
-                    color: mainColor,
-                    size: 32,
-                  ),
-                )),
+              ),
+            ),
             SliverList(
               delegate: SliverChildListDelegate(
                 [
@@ -72,9 +65,9 @@ class _Home_ScreenState extends State<Home_Screen> {
                       scrollDirection: Axis.vertical,
                       children: [
                         Padding(
-                          padding: EdgeInsets.only(left: 10, bottom: 10),
+                          padding: EdgeInsets.only(left: 10, bottom: 20),
                           child: Text(
-                            'choose city you need:',
+                            'Choose City You Need:',
                             style: TextStyle(
                                 color: mainColor,
                                 fontSize: 24,
@@ -118,7 +111,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                           padding: const EdgeInsets.only(
                               left: 18, top: 25, bottom: 16),
                           child: Text(
-                            'suggested for you:',
+                            'Suggested For You:',
                             style: TextStyle(
                                 color: mainColor,
                                 fontSize: 24,
@@ -142,7 +135,8 @@ class _Home_ScreenState extends State<Home_Screen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(bottom: 32, top: 43),
+                          padding: const EdgeInsets.only(
+                              bottom: 32, top: 43, left: 18),
                           child: Text(
                             'Recommendation Trips :',
                             style: TextStyle(
@@ -238,7 +232,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                       children: [
                         Icon(
                           Icons.home,
-                          color: Color(0xffE4D1B9),
+                          color: Color(0xffBE8C63),
                         ),
                       ],
                     ),
@@ -254,7 +248,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                       children: [
                         Icon(
                           Icons.favorite,
-                          color: Color(0xffBE8C63),
+                          color: Color(0xffE4D1B9),
                         ),
                       ],
                     ),
@@ -302,7 +296,7 @@ class _Home_ScreenState extends State<Home_Screen> {
           ),
         ),
       ),
-      drawer: NavDrawer(),
+      endDrawer: NavDrawer(),
       key: key,
     );
   }
